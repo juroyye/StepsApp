@@ -11,7 +11,7 @@ const messages = [
 function App() {
 
   const [step, setStep] = useState(1);
-  const [isOpen, setIsOpen] = useState(true);
+  // const [isOpen, setIsOpen] = useState(true);
   // console.log(arr)
 
   // const step = 1;
@@ -34,9 +34,9 @@ function App() {
 
 
   return (
-   <></>
-      )
-        <div> 
+  //  <></>
+  //     )
+  //     <>
          <div className='steps'>
         <div className='numbers'>
           <div className={step >= 1 ? 'active' : ''}>1</div>
@@ -51,7 +51,7 @@ function App() {
             onClick={handleNext}> Next </button>
         </div>
       </div>
-}
+)}
 
       <button className="close"></button>
           
